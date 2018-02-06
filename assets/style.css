@@ -101,11 +101,11 @@ body {
   /* sidebar */
   
   .sidebar {
-    max-width: 270px;
     padding: 30px;
     margin-bottom: 20px;
     background: #fff;
     border: 1px solid #ddd;
+    overflow: auto;
   }
   
   h3,
@@ -114,17 +114,6 @@ body {
     margin-bottom: 15px;
     line-height: 22px;
     border-bottom: 2px solid #eee;
-  }
-  
-  .social {
-    width: 62px;
-    height: 62px;
-    margin-top: 8px;
-    margin-right: 5px;
-  }
-  
-  .social:last-child {
-    margin-right: 0;
   }
   
   /* main */
@@ -141,20 +130,15 @@ body {
   }
 
   .auth-image {
-    float: left;
-    width: 200px;
-    height: auto;
+    height: auto; 
     margin-top: 10px;
     margin-right: 25px;
   }
-  
   
   /* portfolio page */
   
   .work {
     position: relative;
-    /* float: left; */
-   /* width: 274px; */
     margin: 20px 0 25px;
     overflow: auto;
   } 
@@ -164,7 +148,6 @@ body {
   } 
 
  .work img {
-    /* width: 100%; */
     border: 0 none;
     opacity: 0.8;
   } 
